@@ -168,6 +168,15 @@ function initSolonick() {
         arrows: false,
         variableWidth: true,
     });
+    ccsi.on('wheel', (function(e) {
+        e.preventDefault();
+      
+        if (e.originalEvent.deltaY < 0) {
+          $(this).closest(scw).find(ccsi).slick('slickPrev');
+        } else {
+            $(this).closest(scw).find(ccsi).slick('slickNext');
+        }
+      }));
     scs.on("afterChange", function (event, slick, currentSlide) {
         var scsc = $(".show-case-item.slick-active").data("curtext");
         var $captproject = $(".single-project-title .caption");
