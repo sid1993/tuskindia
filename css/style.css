@@ -129,7 +129,7 @@
 	font-family: 'Gotham XLight Regular';
 	font-style: normal;
 	font-weight: normal;
-	src: url('css/Gotham-XLight.woff') format('woff');
+	src: url('/css/Gotham-XLight.woff') format('woff');
 	}
 	
 	
@@ -137,7 +137,7 @@
 	font-family: 'Gotham Book Italic';
 	font-style: normal;
 	font-weight: normal;
-	src: url('css/Gotham-BookItalic.woff') format('woff');
+	src: url('/css/Gotham-BookItalic.woff') format('woff');
 	}
 	
 	
@@ -145,7 +145,7 @@
 	font-family: 'Gotham Thin Italic';
 	font-style: normal;
 	font-weight: normal;
-	src: url('css/Gotham-ThinItalic.woff') format('woff');
+	src: url('/css/Gotham-ThinItalic.woff') format('woff');
 	}
 	
 	
@@ -153,7 +153,7 @@
 	font-family: 'Gotham Ultra Italic';
 	font-style: normal;
 	font-weight: normal;
-	src: url('css/Gotham-UltraItalic.woff') format('woff');
+	src: url('/css/Gotham-UltraItalic.woff') format('woff');
 	}
 	
 	
@@ -161,7 +161,7 @@
 	font-family: 'Gotham XLight Italic';
 	font-style: normal;
 	font-weight: normal;
-	src: url('css/Gotham-XLightItalic.woff') format('woff');
+	src: url('/css/Gotham-XLightItalic.woff') format('woff');
 	}
 
 html {
